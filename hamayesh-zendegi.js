@@ -1,7 +1,11 @@
-c = 11
+radif = 4
+candali = 15
 
-if (c<=10) {
-    console.log("left") 
+if (candali<=10) {
+    console.log(("right"),(11-radif),(candali))
+
 }else{
-    console.log('right')
+    console.log(('left'),(11-radif),(21-candali))
 }
+
+
